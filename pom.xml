@@ -120,16 +120,15 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <systemPropertyVariables>
-                        <capabilities.provider>configuration</capabilities.provider>
+                        <rest.client.follow.redirects>true</rest.client.follow.redirects>
                         <!--configured in appium.properties-->
                         <!--<allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>-->
-                        <appium.url>https://eu1.appium.testobject.com/wd/hub</appium.url>
                     </systemPropertyVariables>
                     <!--see annotation @Listeners-->
                     <!--<properties>-->
                     <!--<property>-->
                     <!--<name>listener</name>-->
-                    <!--<value>org.noname.core.allure.TakingScreenshotOnTestFailureListener</value>-->
+                    <!--<value>your custom listener [package].[className]</value>-->
                     <!--</property>-->
                     <!--</properties>-->
                 </configuration>

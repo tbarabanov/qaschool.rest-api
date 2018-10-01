@@ -36,7 +36,7 @@ public class HappyPathTest extends TestBase {
     // @Story
     @Test
     public void read() {
-        when().get("/lotto").then().body("lotto.lottoId", equalTo(5));
+        when().get("/lotto").then().statusCode(SC_OK).body("lotto.lottoId", equalTo(5));
     }
 
     @Test
