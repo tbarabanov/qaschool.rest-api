@@ -1,0 +1,10 @@
+Home page http://rest-assured.io/
+
+Home task
+1 Considering todo list from presentation complete tests for /greeting endpoint.
+2 Create couple of negative scenarios (ends with an error)
+3 Run your tests in IDE or from console.
+4 Provide tests results as an allure report
+5 Capture http traffic in wiremock and provide screenshots with request/response pairs
+6 Use at least 3 matchers in tests expectations
+7 Results must be available on your github (allure report, code, wireshark screenshots)
